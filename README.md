@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Open%20to-Backend%20%7C%20Integration%20%7C%20Cloud%20roles-16A34A?style=flat-square" alt="Open to backend, integration and cloud roles">
 </p>
 
-I'm a **Software Engineer at Vkraft Software Services** working on backend services and enterprise integrations. I connect systems over REST APIs and messaging using Java, Apache Camel and webMethods, with a focus on flows that are observable, retry safely and don't lose data.
+I'm a **Software Engineer at Vkraft Software Services** working on backend services and enterprise integrations. I connect systems over REST APIs and messaging using Apache Camel, webMethods and Kafka, with a focus on flows that are observable, retry safely and don't lose data.
 
 Outside work I build end-to-end projects in the areas I want to grow into: **event-driven systems, data engineering and AI-assisted developer tooling.**
 
@@ -13,13 +13,14 @@ Outside work I build end-to-end projects in the areas I want to grow into: **eve
 
 ## 🛠️ Featured projects
 
-### [order-integration-hub](https://github.com/Sunil994923/order-integration-hub)
-**Event-driven order integration service**: REST intake → Kafka → Apache Camel routing to fulfilment topics.
-- Enterprise integration patterns: idempotent consumer, content-based router, wire tap, dead letter channel
-- Retries with exponential back-off; malformed messages go straight to a DLQ with the error attached
-- 13 tests, including an end-to-end run through an embedded Kafka broker; Docker + GitHub Actions CI
+### Integration, Backend & Test Automation portfolio · *private repository, publishing soon*
+**10 Python proofs of concept around one fictional retailer**, ending in a Docker Compose capstone: REST API → Kafka → inventory consumer, backed by PostgreSQL.
+- **Test automation:** Playwright (Page Objects, UI + API hybrid tests, mobile emulation) and Maestro YAML flows, all running in GitHub Actions
+- REST API design with FastAPI: JWT scopes, ETag/If-Match concurrency, idempotency keys, rate limiting, Problem Details
+- SQL on SQLite and PostgreSQL (window functions, recursive CTEs, transactions), Kafka retry topics + DLT, AWS SAM, an Airbyte connector, a typed TypeScript client
+- Each README records the real bugs I found along the way, e.g. a CSS bug caught by Playwright screenshots
 
-`Java 21` `Spring Boot 4` `Apache Camel 4` `Kafka` `Docker`
+`Python` `FastAPI` `Playwright` `Maestro` `pytest` `SQL` `Kafka` `Docker`
 
 ### [ai-code-review-agent](https://github.com/Sunil994923/ai-code-review-agent)
 **LLM pull-request reviewer** that posts line-level comments to GitHub. Runs as a CLI or a GitHub Action.
@@ -63,10 +64,11 @@ Outside work I build end-to-end projects in the areas I want to grow into: **eve
 | Area | Technologies |
 |---|---|
 | **Integration** (professional) | Apache Camel · webMethods · IBM API Gateway · REST APIs · Kafka · enterprise integration patterns |
-| **Backend** | Java · Spring Boot · Maven · JUnit · TypeScript · Next.js |
+| **Backend** | Python · FastAPI · SQLAlchemy · Pydantic · TypeScript · Next.js |
+| **Test automation** | Playwright · Maestro · pytest · Hypothesis · Vitest |
 | **Data** | SQL · MySQL · PostgreSQL · Snowflake · dbt · Airbyte |
 | **Cloud & DevOps** | AWS · Docker · GitHub Actions · Git |
-| **Currently learning** | Python for data and AI · LLM application design · data modelling |
+| **Currently learning** | Python for data and AI · LLM application design · mobile testing with Maestro |
 
 ---
 
@@ -82,5 +84,5 @@ Outside work I build end-to-end projects in the areas I want to grow into: **eve
 
 ## 🤝 Let's connect
 
-I'm open to **Software Engineer, Java Backend, Integration (Camel / webMethods) and Cloud Integration** roles.
+I'm open to **Software Engineer, Python Backend, Integration, Test Automation (Playwright / Maestro) and Cloud Integration** roles.
 The quickest way to reach me is [LinkedIn](https://www.linkedin.com/in/sunil-kumar-thadapaneni-9b8655337/).
