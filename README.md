@@ -44,6 +44,20 @@ Outside work I build end-to-end projects in the areas I want to grow into: **eve
 
 ---
 
+## ❄️ Snowflake
+
+**Applied in a project:** [mysql-snowflake-pipeline](https://github.com/Sunil994923/mysql-snowflake-pipeline) loads MySQL into Snowflake with Airbyte CDC. It includes a layered `RAW → STAGING → ANALYTICS` design, least-privilege `LOADER` / `TRANSFORMER` / `REPORTER` roles with key-pair service users, and dbt models with 31 data-quality checks.
+
+**Hands-on lab in progress:** 8 guided POCs on a retail dataset, covering:
+
+| Area | Topics |
+|---|---|
+| Platform & security | Warehouses and resource monitors · RBAC and future grants · masking and row access policies · tags |
+| Data engineering | Stages and `COPY INTO` · JSON with `VARIANT`/`FLATTEN` · Streams & Tasks (SCD Type 2) · dynamic tables |
+| Operations | Time Travel · zero-copy cloning · pruning, clustering and caching · cost monitoring with `ACCOUNT_USAGE` |
+
+---
+
 ## 🧰 Tech stack
 
 | Area | Technologies |
