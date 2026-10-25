@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Open%20to-Backend%20%7C%20Integration%20%7C%20Cloud%20roles-16A34A?style=flat-square" alt="Open to backend, integration and cloud roles">
 </p>
 
-I'm a **Junior Software Engineer at Vkraft Software Services** working on backend services and enterprise integrations. I connect systems over REST APIs and messaging using Java, Apache Camel and webMethods, with a focus on flows that are observable, retry safely and don't lose data.
+I'm a **Software Engineer at Vkraft Software Services** working on backend services and enterprise integrations. I connect systems over REST APIs and messaging using Java, Apache Camel and webMethods, with a focus on flows that are observable, retry safely and don't lose data.
 
 Outside work I build end-to-end projects in the areas I want to grow into: **event-driven systems, data engineering and AI-assisted developer tooling.**
 
