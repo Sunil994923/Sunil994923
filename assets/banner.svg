@@ -1,49 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Sunil Kumar — Backend and Integration Engineer">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1220"/>
-      <stop offset="1" stop-color="#13233F"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#F59E0B"/>
-      <stop offset="1" stop-color="#EF4444"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.04"/>
-    </pattern>
-  </defs>
-
-  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="16" fill="url(#grid)"/>
-
-  <!-- Integration flow motif: services connected through a message bus -->
-  <g transform="translate(790 70)" fill="none" stroke-linecap="round">
-    <path d="M40 40 C 120 40, 120 80, 200 80" stroke="#334155" stroke-width="2"/>
-    <path d="M40 120 C 120 120, 120 80, 200 80" stroke="#334155" stroke-width="2"/>
-    <path d="M240 80 C 300 80, 300 30, 360 30" stroke="#334155" stroke-width="2"/>
-    <path d="M240 80 C 300 80, 300 130, 360 130" stroke="#334155" stroke-width="2"/>
-    <path d="M40 40 C 120 40, 120 80, 200 80" stroke="url(#accent)" stroke-width="2" stroke-dasharray="6 10"/>
-    <path d="M240 80 C 300 80, 300 130, 360 130" stroke="url(#accent)" stroke-width="2" stroke-dasharray="6 10"/>
-    <g fill="#1E293B" stroke="#475569" stroke-width="1.5">
-      <rect x="0" y="22" width="40" height="36" rx="8"/>
-      <rect x="0" y="102" width="40" height="36" rx="8"/>
-      <rect x="196" y="56" width="48" height="48" rx="24" stroke="#F59E0B"/>
-      <rect x="360" y="12" width="40" height="36" rx="8"/>
-      <rect x="360" y="112" width="40" height="36" rx="8"/>
-    </g>
-    <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" fill="#94A3B8" text-anchor="middle">
-      <text x="20" y="80">REST</text>
-      <text x="20" y="160">CDC</text>
-      <text x="220" y="125">route</text>
-      <text x="380" y="68">topic</text>
-      <text x="380" y="168">sink</text>
-    </g>
-  </g>
-
-  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
-    <text x="64" y="118" font-size="52" font-weight="700" fill="#F8FAFC">Sunil Kumar</text>
-    <rect x="66" y="138" width="72" height="4" rx="2" fill="url(#accent)"/>
-    <text x="64" y="184" font-size="24" font-weight="500" fill="#CBD5E1">Backend &amp; Integration Engineer</text>
-    <text x="64" y="226" font-size="17" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">Java · Apache Camel · webMethods · Kafka · REST APIs</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Sunil Kumar, Backend and Integration Engineer. Skills: Apache Camel, webMethods, IBM API Gateway, Kafka, REST APIs, Java, Spring Boot, Maven, JUnit, TypeScript, SQL, Snowflake, dbt, Airbyte, AWS, Docker">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#14254A"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F59E0B"/><stop offset="1" stop-color="#EF4444"/></linearGradient>
+  <radialGradient id="glow" cx="0.85" cy="0.1" r="0.6"><stop offset="0" stop-color="#3B82F6" stop-opacity="0.18"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+</defs>
+<rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+<rect width="1200" height="360" rx="18" fill="url(#glow)"/>
+<g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+  <text x="64" y="128" font-size="54" font-weight="700" fill="#F8FAFC">Sunil Kumar</text>
+  <rect x="66" y="148" width="76" height="4" rx="2" fill="url(#accent)"/>
+  <text x="64" y="194" font-size="24" font-weight="600" fill="#CBD5E1">Backend &amp; Integration Engineer</text>
+  <text x="64" y="232" font-size="16" fill="#94A3B8">Building reliable APIs, event-driven</text>
+  <text x="64" y="256" font-size="16" fill="#94A3B8">integrations and data pipelines.</text>
+</g>
+<line x1="500" y1="64" x2="500" y2="312" stroke="#FFFFFF" stroke-opacity="0.08"/>
+<circle cx="540" cy="75" r="4" fill="#F59E0B"/>
+<text x="552" y="80" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="600" letter-spacing="1.5" fill="#F59E0B">INTEGRATION</text>
+<g><rect x="536" y="94" width="120" height="32" rx="16" fill="#F59E0B" fill-opacity="0.10" stroke="#F59E0B" stroke-opacity="0.45"/><text x="596.0" y="115" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">Apache Camel</text></g>
+<g><rect x="666" y="94" width="110" height="32" rx="16" fill="#F59E0B" fill-opacity="0.10" stroke="#F59E0B" stroke-opacity="0.45"/><text x="721.0" y="115" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">webMethods</text></g>
+<g><rect x="786" y="94" width="139" height="32" rx="16" fill="#F59E0B" fill-opacity="0.10" stroke="#F59E0B" stroke-opacity="0.45"/><text x="855.5" y="115" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">IBM API Gateway</text></g>
+<g><rect x="935" y="94" width="68" height="32" rx="16" fill="#F59E0B" fill-opacity="0.10" stroke="#F59E0B" stroke-opacity="0.45"/><text x="969.0" y="115" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">Kafka</text></g>
+<g><rect x="1013" y="94" width="98" height="32" rx="16" fill="#F59E0B" fill-opacity="0.10" stroke="#F59E0B" stroke-opacity="0.45"/><text x="1062.0" y="115" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">REST APIs</text></g>
+<circle cx="540" cy="161" r="4" fill="#38BDF8"/>
+<text x="552" y="166" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="600" letter-spacing="1.5" fill="#38BDF8">BACKEND</text>
+<g><rect x="536" y="180" width="61" height="32" rx="16" fill="#38BDF8" fill-opacity="0.10" stroke="#38BDF8" stroke-opacity="0.45"/><text x="566.5" y="201" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">Java</text></g>
+<g><rect x="607" y="180" width="104" height="32" rx="16" fill="#38BDF8" fill-opacity="0.10" stroke="#38BDF8" stroke-opacity="0.45"/><text x="659.0" y="201" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">Spring Boot</text></g>
+<g><rect x="721" y="180" width="72" height="32" rx="16" fill="#38BDF8" fill-opacity="0.10" stroke="#38BDF8" stroke-opacity="0.45"/><text x="757.0" y="201" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">Maven</text></g>
+<g><rect x="803" y="180" width="63" height="32" rx="16" fill="#38BDF8" fill-opacity="0.10" stroke="#38BDF8" stroke-opacity="0.45"/><text x="834.5" y="201" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">JUnit</text></g>
+<g><rect x="876" y="180" width="100" height="32" rx="16" fill="#38BDF8" fill-opacity="0.10" stroke="#38BDF8" stroke-opacity="0.45"/><text x="926.0" y="201" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">TypeScript</text></g>
+<circle cx="540" cy="247" r="4" fill="#34D399"/>
+<text x="552" y="252" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="600" letter-spacing="1.5" fill="#34D399">DATA &amp; CLOUD</text>
+<g><rect x="536" y="266" width="56" height="32" rx="16" fill="#34D399" fill-opacity="0.10" stroke="#34D399" stroke-opacity="0.45"/><text x="564.0" y="287" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">SQL</text></g>
+<g><rect x="602" y="266" width="99" height="32" rx="16" fill="#34D399" fill-opacity="0.10" stroke="#34D399" stroke-opacity="0.45"/><text x="651.5" y="287" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">Snowflake</text></g>
+<g><rect x="711" y="266" width="49" height="32" rx="16" fill="#34D399" fill-opacity="0.10" stroke="#34D399" stroke-opacity="0.45"/><text x="735.5" y="287" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">dbt</text></g>
+<g><rect x="770" y="266" width="77" height="32" rx="16" fill="#34D399" fill-opacity="0.10" stroke="#34D399" stroke-opacity="0.45"/><text x="808.5" y="287" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">Airbyte</text></g>
+<g><rect x="857" y="266" width="59" height="32" rx="16" fill="#34D399" fill-opacity="0.10" stroke="#34D399" stroke-opacity="0.45"/><text x="886.5" y="287" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">AWS</text></g>
+<g><rect x="926" y="266" width="76" height="32" rx="16" fill="#34D399" fill-opacity="0.10" stroke="#34D399" stroke-opacity="0.45"/><text x="964.0" y="287" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#E2E8F0">Docker</text></g>
 </svg>
