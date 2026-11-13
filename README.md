@@ -43,6 +43,16 @@ Outside work I build end-to-end projects in the areas I want to grow into: **eve
 
 `TypeScript` `Next.js` `PostgreSQL` `Prisma`
 
+### Start-up SaaS system designs · *private repository*
+**Five full-stack applications designed end to end** around common start-up problems. Each one has architecture diagrams, a security design, a step-by-step local setup guide and a demo script. *A walkthrough is available on request.*
+- **SaaS billing:** signed payment webhooks processed exactly once inside a database transaction; premium features gated on the server
+- **AI document assistant (RAG):** chunking, local embeddings, pgvector search and answers with source citations, isolated per user
+- **E-commerce:** prices calculated on the server and stock reserved atomically, so items can't be oversold
+- **Support platform:** customer, agent and admin roles enforced on the server, AI-drafted replies reviewed by agents, full audit trail
+- **Operations dashboard:** KPI and funnel analytics, caching, de-duplicated error alerts and health checks
+
+`Next.js` `TypeScript` `PostgreSQL` `pgvector` `Drizzle ORM` `RAG` `System design`
+
 ---
 
 ## ❄️ Snowflake
@@ -68,6 +78,7 @@ Outside work I build end-to-end projects in the areas I want to grow into: **eve
 | **Test automation** | Playwright · Maestro · pytest · Hypothesis · Vitest |
 | **Data** | SQL · MySQL · PostgreSQL · Snowflake · dbt · Airbyte |
 | **Cloud & DevOps** | AWS · Docker · GitHub Actions · Git |
+| **System design** | Idempotent webhooks · RAG with vector search · role-based access and audit trails · caching and rate limiting · observability |
 | **Currently learning** | Python for data and AI · LLM application design · mobile testing with Maestro |
 
 ---
